@@ -1,0 +1,12 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    // Cursor Key-binding
+    { "key": "ctrl+k",                  "command": "cursorDown",
+                                     "when": "editorTextFocus" },
+    { "key": "ctrl+j",                  "command": "cursorLeft",
+                                     "when": "editorTextFocus" },
+    { "key": "ctrl+l",                  "command": "cursorRight",
+                                     "when": "editorTextFocus" },
+    { "key": "ctrl+i",                  "command": "cursorUp",
+                                     "when": "editorTextFocus" }
+]
